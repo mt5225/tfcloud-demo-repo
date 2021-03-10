@@ -24,7 +24,8 @@ resource "ansible_host" "db" {
   groups             = ["db"]
   vars = merge(local.common_vars,
     {
-      version = "5.6"
+      version     = "5.6"
+      environment = var.environment
     }
   )
 }
