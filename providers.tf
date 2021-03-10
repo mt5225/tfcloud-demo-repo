@@ -1,0 +1,3 @@
+provider "ansible" {
+  # Configuration options
+}
