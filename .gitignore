@@ -45,3 +45,5 @@ states
 providers
 .terraform
 data/
+mongodb_data/
+consul-node1_data/
