@@ -3,3 +3,9 @@ variable "environment" {
   description = "Enviromnet"
   default     = "DEV"
 }
+
+variable "port" {
+  type = string
+  description = "port number"
+  default = "80"
+}
