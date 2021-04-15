@@ -14,7 +14,7 @@ resource "ansible_host" "web" {
   groups             = ["web"]
   vars = merge(local.common_vars,
     {
-      port = 80
+      port = var.port
     }
   )
 }
